@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #8935c0;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.wrapper {
+  width: 330px;
+  margin: auto;
+  border: 2px solid #ebedf5;
+}
+
+.eventList {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event {
+    border-top: 1px solid #ebedf5;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    vertical-align: middle
+}
+
+.eventDetails {
+  margin-left: 15%;
+}
+
+.wrapperTitle {
+    background-color: #8935c0;
+    border-radius: 4px 4px 0 0;
+    padding: 12px 14px;
+    color: white;
+    font-size: 18px;
+}
+
+.eventIcon {
+  float: left;
+  width: 15%;
+}
