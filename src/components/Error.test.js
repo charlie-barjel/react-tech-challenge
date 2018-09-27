@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { shallow } from 'enzyme';
 import Error from './Error';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Error message="It should render successfully"/>, div);
-  ReactDOM.unmountComponentAtNode(div);
+  const wrapper = shallow(<Error message="It should render error successfully"/>);
+  const error = <p>It should render error successfully</p>;
+  expect(wrapper.contains(error)).toBe(true);
+  expect(wrapper.contains(error)).toEqual(true);
 });
