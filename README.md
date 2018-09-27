@@ -14,4 +14,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #### Run the tests:
 `npm test`
 
+### Dependencies Used
+ * Axios (https://www.npmjs.com/package/axios) - RESTful API Client
+ * Enzyme (https://www.npmjs.com/package/enzyme) - Testing dependency
+
+
 -- Charlie Barjel

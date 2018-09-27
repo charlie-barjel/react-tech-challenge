@@ -1,5 +1,4 @@
 import React from 'react';
-import EventRow from './EventRow';
 
 const Header = ({events}) => {
   return (<header className="header">
