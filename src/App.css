@@ -2,14 +2,14 @@
   text-align: center;
 }
 
-.App-header {
+.header {
   background-color: #8935c0;
   height: 50px;
   padding: 20px;
   color: white;
 }
 
-.App-title {
+.title {
   font-size: 1.5em;
 }
 
@@ -54,4 +54,8 @@
 .eventIcon {
   float: left;
   width: 15%;
+}
+
+.eventSelector {
+  padding: 10px;
 }
